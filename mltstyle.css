@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Gravitas+One|Montserrat&display=swap');
+
+body {
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Gravitas One', cursive;
+    text-align: left;
+    color: #ff8395;
+    font-size: 3em;
+    text-shadow: 3px 3px #2c2c2c;
+}
+
+h2 {
+    font-family: 'Gravitas One', cursive;
+    text-align: center;
+    color: #000;
+    font-size: 2em;
+
+}
+
+h3 {
+    font-family: 'Gravitas One', cursive;
+    text-align: center;
+    color: #ff8395;
+    font-size: 3em;
+    text-shadow: 1px 1px #2c2c2c;
+}
+
+h4 {
+    font-size: 1.2em;
+    margin-top: 15px;
+}
+
+.paddingtext {
+    padding: 50px;
+}
+
+p.bannercaption {
+    text-align: left;
+    color: #000;
+    background-color: rgba(252, 229, 0, 0.7);
+    padding: 15px;
+}
+
+.leftalign {
+    text-align: left;
+}
+
+.centeralign {
+    text-align: center;
+}
+
+a.shop:link {
+    color: #ff8395;
+    background-color: #000;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* visited link */
+a.shop:visited {
+    color: #ff8395;
+}
+
+/* mouse over link */
+a.shop:hover {
+    color: #000;
+    background-color: #ff8395;
+    text-decoration: none;
+}
+
+/* selected link */
+a.shop:active {
+    color: #ff8395;
+}
+
+a.btn.btn-primary {
+    color: #000;
+    background: #f4f784;
+    border-color: #eaea7a;
+    font-size: 0.8em;
+}
+
+a.btn.btn-primary:hover {
+    color: #000;
+    background: #ff8395;
+    border-color: #eef5b7;
+    font-size: 0.8em;
+}
+
+a.action1:link {
+    font-size: 0.8em;
+    color: #fff;
+    text-decoration: none;
+    background-color: #219fbe;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+a.action1:visited {
+    color: #fff;
+}
+
+a.action1:hover {
+    color: aqua;
+}
+
+a.action2:link {
+    font-size: 0.8em;
+    color: #fff;
+    text-decoration: none;
+    background-color: #51c1cd;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+a.action2:visited {
+    color: #fff;
+}
+
+a.action2:hover {
+    color: aqua;
+}
+
+a.winterlink:link {
+    font-size: 0.8em;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #e6a700;
+    padding: 10px;
+}
+
+a.winterlink:hover {
+    color: #e6a700;
+    background-color: #000;
+}
+
+a.winterlink:link {
+    color: beige;
+}
+
+a.winterlink:visited {
+    color: #ffffff;
+}
+
+.profiletext {
+    font-size: 0.8em;
+    padding: 15px;
+}
+
+a.profiledetails:link {
+    font-size: 0.8em;
+    color: #000;
+    text-decoration: none;
+    background-color: #ff8395;
+    padding: 10px;
+}
+
+a.profiledetails:hover {
+    color: #000;
+    background-color: #ff0025;
+}
+
+a.profiledetails:link {
+    color: #000;
+}
+
+a.profiledetails:visited {
+    color: #000;
+}
+
+@media (max-width: 700px) {
+    h3 {
+        font-size: 2em;
+    }
+}
